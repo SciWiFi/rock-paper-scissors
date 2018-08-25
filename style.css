@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+#stats {
+	text-align: center;
+	font-size: 30px;
+}
+
+#gameButtons {
+	width: 100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+	background-color: #9999ff;
+	border: 0px solid #ffffff;
+	padding: 0px;
+	width: 125px;
+	height: 125px;
+}
+
+button:hover {
+	background-color: #8888ee;
+}
+
+#game {
+	position: absolute;
+	width: 375px;
+	height: 300px;
+	top: 0; right: 0; left: 0; bottom: 0;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+#results {
+	white-space: pre;
+	padding: 10px;
+	overflow-y: scroll;
+	height: 100%;
+	width: 20%;
+	border-right: 1px solid #0000ff;
+}
+
+.won {
+	color: green;
+}
+
+.lose {
+	color: red;
+}
+
+#roundDiv {
+	text-align: center;
+}
